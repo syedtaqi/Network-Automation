@@ -23,7 +23,7 @@ iosv_L2_s3 = {
 all_switches = [iosv_L2_s1, iosvL2_s2, iosv_L2_s3]
 
 for switchesToronto in all_switches:
-         net_connect = ConnectHandler(**switchesToronto)
+         net_connect = ConnectHandler(**switchesToronto) 
 
                 for n in range (2,21):
                          print "Creating Vlan" + str(n)
