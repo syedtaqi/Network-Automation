@@ -1,7 +1,7 @@
 import json
 from napalm import get_network_driver
 
-#Retrieving BGP information from multiple switches
+#Retrieving BGP information from multiple Routers (E-BGP/I-BGP)
 listBGP_ = [192.168.122.70, 
             192.168.122.72, 
             192.168.122.74, 
