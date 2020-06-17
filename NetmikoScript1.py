@@ -7,8 +7,6 @@ cisco_881 = {
     'host':   '10.10.10.10',
     'username': 'test',
     'password': 'password',
-    'port' : 8022,          # optional, defaults to 22
-    'secret': 'secret',     # optional, defaults to ''
 }
 
 net_connect = ConnectHandler(**iosv_L2)
