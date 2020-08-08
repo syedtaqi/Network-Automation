@@ -17,7 +17,7 @@ for ip_ in listBGP:
    bgp_neighbors = router_bgp.get_bgp_neighbors()
    print (json.dumps(bgp_neighbors, indent=3))
             
-    bgp_neigh_detail = router_bgp.get_bgp_neighbors_detail()
-    print(json.dumps(bgp_neigh_detail, intent =3)
+   bgp_neigh_detail = router_bgp.get_bgp_neighbors_detail()
+   print(json.dumps(bgp_neigh_detail, intent =3)
 
-    router_bgp.close()
+   router_bgp.close()
