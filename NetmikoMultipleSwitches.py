@@ -1,3 +1,7 @@
+  
+#!usr/bin/env python
+
+from netmiko import ConnectHandler
 
 iosv_L2_s1 = {
         'device_type': 'cisco_ios',
